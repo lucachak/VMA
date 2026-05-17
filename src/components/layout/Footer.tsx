@@ -38,14 +38,7 @@ export const Footer = () => {
               ))}
             </div>
 
-            <div className="flex items-center gap-3">
-              {[Instagram, Linkedin, Facebook].map((Icon, i) => (
-                <a key={i} href="#" className="w-9 h-9 rounded-lg flex items-center justify-center transition-all hover:scale-110"
-                  style={{ background: 'rgba(200,151,58,0.1)', border: '1px solid rgba(200,151,58,0.2)', color: '#C8973A' }}>
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
-            </div>
+
           </div>
 
           {/* Link cols */}
