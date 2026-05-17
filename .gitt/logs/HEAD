@@ -1,0 +1,18 @@
+0000000000000000000000000000000000000000 d94000dfefd3bc071dce67ec1ff8e6a651164999 lucachak <lucas.lucachak9@gmail.com> 1778801407 +0100	commit (initial): first commit
+d94000dfefd3bc071dce67ec1ff8e6a651164999 0000000000000000000000000000000000000000 lucachak <lucas.lucachak9@gmail.com> 1778801407 +0100	Branch: renamed refs/heads/main to refs/heads/main
+d94000dfefd3bc071dce67ec1ff8e6a651164999 d94000dfefd3bc071dce67ec1ff8e6a651164999 lucachak <lucas.lucachak9@gmail.com> 1778801407 +0100	Branch: renamed refs/heads/main to refs/heads/main
+d94000dfefd3bc071dce67ec1ff8e6a651164999 2b88794c830759b12ce06ed9148bf4729a111644 lucachak <lucas.lucachak9@gmail.com> 1778806027 +0100	commit: test
+2b88794c830759b12ce06ed9148bf4729a111644 885dcbde62de38d6ec298999fb25f4a1e75c04fc lucachak <lucas.lucachak9@gmail.com> 1778808744 +0100	pull: Fast-forward
+885dcbde62de38d6ec298999fb25f4a1e75c04fc cc35c30ff5accd9c211a8ddf7fdc9e17a327d58e lucachak <lucas.lucachak9@gmail.com> 1778809960 +0100	commit: na main memo
+cc35c30ff5accd9c211a8ddf7fdc9e17a327d58e da03a3b8c3ee7606b986dda146291bbb20f328fb lucachak <lucas.lucachak9@gmail.com> 1778810189 +0100	pull --rebase git@github.com:joao-luizzz/VMA-contabilidade.git main (start): checkout da03a3b8c3ee7606b986dda146291bbb20f328fb
+da03a3b8c3ee7606b986dda146291bbb20f328fb 6be9156201c2fe53b9de5df9770571d7e084f677 lucachak <lucas.lucachak9@gmail.com> 1778810189 +0100	pull --rebase git@github.com:joao-luizzz/VMA-contabilidade.git main (pick): na main memo
+6be9156201c2fe53b9de5df9770571d7e084f677 6be9156201c2fe53b9de5df9770571d7e084f677 lucachak <lucas.lucachak9@gmail.com> 1778810189 +0100	pull --rebase git@github.com:joao-luizzz/VMA-contabilidade.git main (finish): returning to refs/heads/main
+6be9156201c2fe53b9de5df9770571d7e084f677 af573c78c8f1a44c56955075390f38da7e91ed31 lucachak <lucas.lucachak9@gmail.com> 1778812741 +0100	commit: vamooo
+af573c78c8f1a44c56955075390f38da7e91ed31 c2772bfe395aaa837992b5193db4c2ca65012cbf lucachak <lucas.lucachak9@gmail.com> 1778813895 +0100	commit: agora adicionamo issae
+c2772bfe395aaa837992b5193db4c2ca65012cbf 5dd96e4a1337a730a4764d9fd25d429267a91f4a lucachak <lucas.lucachak9@gmail.com> 1778814396 +0100	commit: agora adicionamo issae
+5dd96e4a1337a730a4764d9fd25d429267a91f4a 8a11d3eff8c97d328cdb5d6db0e5157731beaca7 lucachak <lucas.lucachak9@gmail.com> 1778860139 +0100	commit: fixing some stuff and adding some UI/UX
+8a11d3eff8c97d328cdb5d6db0e5157731beaca7 17adbb7d3e82bbfe07821e78af65edda30edbeaa lucachak <lucas.lucachak9@gmail.com> 1778956985 +0100	commit: new features
+17adbb7d3e82bbfe07821e78af65edda30edbeaa 296dea13de653bb3ed67d7396974ebcbfe9485cc lucachak <lucas.lucachak9@gmail.com> 1778958004 +0100	merge origin/main: Merge made by the 'ort' strategy.
+296dea13de653bb3ed67d7396974ebcbfe9485cc 7e81ac0e522eaa8b2d18138283f6e617719be166 lucachak <lucas.lucachak9@gmail.com> 1778962536 +0100	commit: new features
+7e81ac0e522eaa8b2d18138283f6e617719be166 5e83ca5eda8e6fe9854ccab10d33457a8de72e3c lucachak <lucas.lucachak9@gmail.com> 1778964712 +0100	commit: update
+5e83ca5eda8e6fe9854ccab10d33457a8de72e3c 776932a9dc2ff643ab2daf9d81dc79ef6b3e637e lucachak <lucas.lucachak9@gmail.com> 1778980846 +0100	commit: UI/UX fixes
