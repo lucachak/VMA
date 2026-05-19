@@ -3,11 +3,34 @@ import { Phone, Mail, MapPin, Instagram, Linkedin, Facebook } from 'lucide-react
 import { Logo } from '@/components/ui/Logo';
 import Image from 'next/image';
 
-const footerLinks = {
-  Serviços: ['Assessoria Contábil', 'Planejamento Tributário', 'Gestão de Folha', 'Consultoria', 'Abertura de Empresa'],
-  Empresa: ['Sobre Nós', 'Nossa Equipe', 'Blog', 'Clientes', 'Parceiros'],
-  Legal: ['Política de Privacidade', 'Termos de Uso', 'LGPD'],
-};
+const footerLinks = [
+  {
+    title: 'Serviços',
+    links: [
+      { label: 'Assessoria Contábil', href: '/#servicos' },
+      { label: 'Planejamento Tributário', href: '/#servicos' },
+      { label: 'Gestão de Folha', href: '/#servicos' },
+      { label: 'Consultoria', href: '/#servicos' },
+      { label: 'Abertura de Empresa', href: '/#servicos' },
+    ],
+  },
+  {
+    title: 'Empresa',
+    links: [
+      { label: 'Sobre Nós', href: '/#sobre' },
+      { label: 'Enviar Documentos', href: '/upload' },
+      { label: 'Contato', href: '/#contato' },
+    ],
+  },
+  {
+    title: 'Legal',
+    links: [
+      { label: 'Política de Privacidade', href: '#' },
+      { label: 'Termos de Uso', href: '#' },
+      { label: 'LGPD', href: '#' },
+    ],
+  },
+];
 
 export const Footer = () => {
   return (
@@ -42,14 +65,14 @@ export const Footer = () => {
           </div>
 
           {/* Link cols */}
-          {Object.entries(footerLinks).map(([title, links]) => (
-            <div key={title}>
-              <h4 className="font-bold text-sm mb-5" style={{ color: 'var(--foreground)', fontFamily: 'var(--font-display)' }}>{title}</h4>
+          {footerLinks.map((col) => (
+            <div key={col.title}>
+              <h4 className="font-bold text-sm mb-5" style={{ color: 'var(--foreground)', fontFamily: 'var(--font-display)' }}>{col.title}</h4>
               <ul className="space-y-3">
-                {links.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="text-sm transition-colors hover:text-[#C8973A]" style={{ color: 'var(--text-muted)' }}>
-                      {link}
+                {col.links.map((link) => (
+                  <li key={link.label}>
+                    <a href={link.href} className="text-sm transition-colors hover:text-[#C8973A]" style={{ color: 'var(--text-muted)' }}>
+                      {link.label}
                     </a>
                   </li>
                 ))}
