@@ -11,7 +11,6 @@ import { Footer } from '@/components/layout/Footer';
 import { CltPjCalculator } from '@/components/sections/CltPjCalculator';
 import { TaxCalendar } from '@/components/sections/Taxcalendar';
 import { TrustedBy } from '@/components/sections/TrustedBy';
-import { PaywallWarning } from '@/components/ui/PaywallWarning';
 import { PaywallOverlay } from '@/components/ui/PaywallOverlay';
 
 export default function Home() {
