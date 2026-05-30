@@ -16,13 +16,13 @@ export default function Home() {
     <div className="min-h-screen">
       <Navbar />
       <main>
-        <Hero />
-        <About />
-        <Services />
-        <TaxCalendar />
-        <CltPjCalculator />
-        <TrustedBy />
-        <Contact />
+        <Heo />
+        <Abut />
+        <Sevices />
+        <TaCalendar />
+        <ClPjCalculator />
+        <TrstedBy />
+        <Cotact />
       </main>
       <Footer />
     </div>
