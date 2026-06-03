@@ -61,12 +61,12 @@ export default function Home() {
       <Footer />
       
       {/* Tela de bloqueio - aparece se não pagou */}
-      {!isPaid && (
+      {/*!isPaid && (
         <PaymentDueOverlay 
           isOpen={true}
           onPay={handlePayment}
         />
-      )}
+      )*/}
     </div>
   );
 }
